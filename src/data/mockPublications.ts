@@ -1,56 +1,86 @@
 export const mockPublications = [
   {
-    id: 1,
+    id: "1",
     title: "Effects of Microgravity on Plant Growth Patterns in the International Space Station",
     summary: "This comprehensive study examines how reduced gravity affects cellular processes in Arabidopsis thaliana over a six-month period. Key findings include altered gene expression in root development and unexpected phototropic responses. The research provides crucial insights for long-duration space missions and potential food production systems.",
     date: "March 15, 2025",
     authors: "Dr. Sarah Chen, Dr. Michael Rodriguez",
     experimentType: "Plant Biology",
-    outcome: "Breakthrough"
+    outcome: "Breakthrough",
+    keyConcepts: ["Microgravity", "Plant Growth", "Gene Expression", "Phototropism"],
+    abstract: "This comprehensive study examines how reduced gravity affects cellular processes in Arabidopsis thaliana over a six-month period aboard the International Space Station.",
+    methods: "Arabidopsis thaliana seeds were germinated in controlled microgravity chambers with automated imaging systems tracking growth patterns every 6 hours.",
+    results: "Altered gene expression in root development with significant changes in auxin distribution. Unexpected phototropic responses showing 40% deviation from Earth-based controls.",
+    impacts: "Critical insights for developing sustainable food production systems for long-duration space missions to Mars and beyond."
   },
   {
-    id: 2,
+    id: "2",
     title: "Cellular Response to Space Radiation: A Longitudinal Study",
     summary: "Analysis of human cell cultures exposed to cosmic radiation reveals novel DNA repair mechanisms. The study tracked cellular adaptations over 120 days and identified promising protective pathways. These findings have significant implications for astronaut health on deep space missions.",
     date: "March 10, 2025",
     authors: "Dr. James Anderson, Dr. Lisa Kim",
     experimentType: "Radiation Studies",
-    outcome: "Significant"
+    outcome: "Significant",
+    keyConcepts: ["Cosmic Radiation", "DNA Repair", "Cell Cultures", "Astronaut Health"],
+    abstract: "Analysis of human cell cultures exposed to cosmic radiation reveals novel DNA repair mechanisms over a 120-day observation period.",
+    methods: "Human fibroblast cultures were exposed to controlled doses of cosmic radiation simulation while monitoring DNA repair pathway activation.",
+    results: "Identified three novel DNA repair pathways activated under radiation stress, with enhanced NHEJ and homologous recombination efficiency.",
+    impacts: "Provides foundation for developing protective countermeasures for astronaut health during deep space missions."
   },
   {
-    id: 3,
+    id: "3",
     title: "Bone Density Loss in Microgravity: Prevention Strategies and Mechanisms",
     summary: "Investigation into countermeasures for bone density reduction during spaceflight. Novel exercise protocols combined with nutritional supplements show promising results in maintaining bone health. The research includes detailed molecular analysis of osteoblast activity in microgravity conditions.",
     date: "February 28, 2025",
     authors: "Dr. Emily Watson",
     experimentType: "Microgravity",
-    outcome: "Breakthrough"
+    outcome: "Breakthrough",
+    keyConcepts: ["Bone Density", "Microgravity", "Exercise Protocols", "Osteoblast Activity"],
+    abstract: "Investigation into countermeasures for bone density reduction during spaceflight using novel exercise protocols and nutritional interventions.",
+    methods: "Combination of resistance exercise protocols with calcium and vitamin D supplementation tracked using DEXA scanning and molecular markers.",
+    results: "65% reduction in bone density loss compared to control groups. Enhanced osteoblast activity markers with combined intervention.",
+    impacts: "Revolutionary approach to maintaining bone health during extended space missions, applicable to Mars missions."
   },
   {
-    id: 4,
+    id: "4",
     title: "Neuromuscular Adaptation in Long-Duration Spaceflight Environments",
     summary: "Comprehensive assessment of muscle atrophy patterns and neural pathway changes during extended missions. The study proposes innovative countermeasures based on observed cellular mechanisms. Results suggest potential improvements to current exercise protocols.",
     date: "February 20, 2025",
     authors: "Dr. Robert Martinez, Dr. Aisha Patel",
     experimentType: "Cell Culture",
-    outcome: "Significant"
+    outcome: "Significant",
+    keyConcepts: ["Muscle Atrophy", "Neural Pathways", "Spaceflight", "Exercise Protocols"],
+    abstract: "Comprehensive assessment of muscle atrophy patterns and neural pathway changes during extended spaceflight missions.",
+    methods: "Muscle biopsies and EMG monitoring combined with MRI imaging to track neuromuscular changes over 180-day simulation.",
+    results: "Identified specific neural pathway adaptations that precede muscle atrophy. Novel countermeasure protocols show 45% improvement.",
+    impacts: "Informs next-generation exercise equipment design and training protocols for long-duration missions."
   },
   {
-    id: 5,
+    id: "5",
     title: "Bacterial Behavior and Antibiotic Resistance in Space Conditions",
     summary: "Analysis of microbial communities aboard the ISS reveals unexpected changes in bacterial virulence and antibiotic resistance patterns. The research identifies environmental factors unique to spacecraft that influence microbial evolution. Critical findings for maintaining crew health on future missions.",
     date: "February 5, 2025",
     authors: "Dr. John Thompson",
     experimentType: "Microgravity",
-    outcome: "Preliminary"
+    outcome: "Preliminary",
+    keyConcepts: ["Bacterial Behavior", "Antibiotic Resistance", "Microbial Evolution", "Crew Health"],
+    abstract: "Analysis of microbial communities aboard the ISS reveals unexpected changes in bacterial virulence and antibiotic resistance patterns.",
+    methods: "Bacterial cultures collected from various ISS surfaces and analyzed using genomic sequencing and antibiotic susceptibility testing.",
+    results: "30% increase in antibiotic resistance genes detected. Environmental stress factors unique to spacecraft accelerate microbial adaptation.",
+    impacts: "Critical for developing infection control protocols and antibiotic stewardship programs for future long-duration missions."
   },
   {
-    id: 6,
+    id: "6",
     title: "Cardiovascular System Changes During Extended Space Missions",
     summary: "Detailed study of cardiac function and blood vessel adaptation in microgravity. Novel imaging techniques reveal structural changes in heart tissue and vascular remodeling. The research includes recommendations for monitoring protocols and potential interventions.",
     date: "January 25, 2025",
     authors: "Dr. Maria Santos, Dr. David Lee",
     experimentType: "Cell Culture",
-    outcome: "Ongoing"
+    outcome: "Ongoing",
+    keyConcepts: ["Cardiovascular System", "Cardiac Function", "Vascular Remodeling", "Microgravity"],
+    abstract: "Detailed study of cardiac function and blood vessel adaptation in microgravity using novel imaging techniques.",
+    methods: "Ultrasound echocardiography combined with arterial stiffness measurements taken weekly during 6-month missions.",
+    results: "Cardiac output changes of 12% with significant arterial wall remodeling. Novel biomarkers identified for cardiovascular monitoring.",
+    impacts: "Establishes baseline for cardiovascular health monitoring and intervention strategies for deep space exploration."
   }
 ];
